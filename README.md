@@ -1,2 +1,3 @@
 # BDBH101_Nandhi
-Linux basic commands
+Linux basic command
+start learning linux
