@@ -16,17 +16,16 @@ Worksheet released: 25 Aug 2024
 Submission deadline: 8 Sep 2024
 Variables, Conditions and Loops
 
-Write a shell script program to list all executable files available in your system
+1. Write a shell script program to list all executable files available in your system
 
-1. Create a comma separated value (CSV) file called users.csv.  The file should contain a list of userid, username, and userdept. The userid and username separated by a comma (,). The username and the department are separated by colon (:).  Each user is separated by a newline. For example, a sample csv file may look like this
+2. Create a comma separated value (CSV) file called users.csv.  The file should contain a list of userid, username, and userdept. The userid and username separated by a comma (,). The username and the department are separated by colon (:).  Each user is separated by a newline. For example, a sample csv file may look like this
 arun,Arun P:Molecular biology
 bharath,Bharath Ramesh :Genomics
 chithra,Chithra P:Machine Learning
 dinesh,Dinesh BJ:Computational Biology
 esther:Esther S:Synthetic biology
 etc. 
-
-2. Write a script that reads this file and displays userid, username and the department in consecutive lines.  You may want to use the “read” command to read the csv file.
+Write a script that reads this file and displays userid, username and the department in consecutive lines.  You may want to use the “read” command to read the csv file.
 
 3. Create a text file with the names of the fasta files. The text file looks like the following
 B5ZC00.fasta
