@@ -8,9 +8,12 @@ def binary_convert(quotient):
 
 def main():
     number=int(input("Enter a decimal number: "))
-    x=binary_convert(number)
-    x.reverse()
-    print(x)
+    if number==1 or number==0:
+        print(number)
+    else:
+        x=binary_convert(number)
+        x.reverse()
+        print(x)
 
 if __name__=="__main__":
     main()
