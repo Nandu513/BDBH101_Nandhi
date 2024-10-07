@@ -18,14 +18,12 @@ def main():
     print(non_duplicate_string)
     check = highest_frequent_in_string(non_duplicate_string, str_input)
     print(check)
-    max_repeat = check[0]
+    max_repeat=max(check)
     print("Most repeated are: ")
     for i in range(len(check)):
-        if check[i] >= max_repeat:
+        if check[i] == max_repeat:
             print(non_duplicate_string[i], "character", "Repeated: ", check[i])
             max_repeat = check[i]
-        else:
-            max_repeat = check[0]
 
 if __name__ == "__main__":
     main()
