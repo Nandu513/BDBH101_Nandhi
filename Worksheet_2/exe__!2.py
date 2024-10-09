@@ -15,9 +15,9 @@ def main():
     for char in str_input:
         if char not in non_duplicate_string:
             non_duplicate_string += char
-    print(non_duplicate_string)
+    print(non_duplicate_string, ":these are the unique characters in given string:", string_input)
     check = highest_frequent_in_string(non_duplicate_string, str_input)
-    print(check)
+    #print(check)
     max_repeat=max(check)
     print("Most repeated are: ")
     for i in range(len(check)):
