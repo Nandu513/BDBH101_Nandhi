@@ -8,9 +8,9 @@ def main():
     if not str_input or str_input.strip()=='':
         print("String is empty")
     else:
-        print(len(str_input), "length of string before removing leading white spaces")
+        print(len(str_input), "is length of string before removing leading white spaces")
         result=rm_spaces(str_input)
-        print(result)
+        print("The result after removing leading white spaces is: ",result)
 
 if __name__=='__main__':
     main()
