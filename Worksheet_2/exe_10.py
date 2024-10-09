@@ -6,7 +6,7 @@ def string_concatenate(s1,s2):
 def main():
     string_1=input("Enter the first string: ")
     string_2=input("Enter the second string: ")
-    print(string_concatenate(string_1,string_2))
+    print(string_concatenate(string_1,string_2), ":this is the result of adding two strings")
 
 if __name__ == '__main__':
     main()
