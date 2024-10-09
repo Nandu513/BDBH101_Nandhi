@@ -1,4 +1,4 @@
-def binary_convert(quotient):
+def decimal_to_binary_convert(quotient):
     remainder = ""
     while quotient >=1 :
         new_quotient=quotient//2
@@ -8,7 +8,7 @@ def binary_convert(quotient):
 
 def main():
     number=int(input("Enter a decimal number: "))
-    x=binary_convert(number)
+    x=decimal_to_binary_convert(number)
     print(x[::-1], "is the binary number of", number)
 
 if __name__=="__main__":
