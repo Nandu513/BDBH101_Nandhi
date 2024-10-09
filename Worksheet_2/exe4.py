@@ -3,12 +3,12 @@ def decimal_converter(number):
     sum=0
     number.reverse()
     for i in range(0,len(number)):
-        num=(2*(int(number[i])))**i
-        sum=sum+num
+        num=((int(number[i]))*(2**i))
+        sum+=num
     return sum
 
 def main():
-    binary_digits=input("Enter the binary digit numbers: ")
+    binary_digits=input( " Enter the binary digit numbers: ")
     num = list(binary_digits)
     count_1s=num.count('1')
     #print(count_1s)
@@ -19,7 +19,7 @@ def main():
         main()
     else:
         x = decimal_converter(num)
-        print(x)
+        print("The decimal number given binary number", binary_digits, " is: ", x)
 
 if __name__=="__main__":
     main()
