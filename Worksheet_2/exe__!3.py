@@ -11,7 +11,7 @@ def main():
         print("Invalid inputs, You have not entered all the required inputs")
     else:
         out_put=str_replace(str_input,ch_find,ch_replace)
-        print(out_put)
+        print("The output after replacing a character in given string is: ", out_put)
 
 if __name__=='__main__':
     main()
