@@ -1,13 +1,12 @@
 def string_occurrence(s,c):
-    occur = s.index(c)
     if c.strip() == "" :
         return 'No letter is given to search'
-    elif occur=='':
+    elif s.count(c)==0 :
         return 'letter is not found'
     else:
+        occur = s.index(c)
         print(f"The first occurrence of {c} letter is in the position/element:")
         return occur+1
-
 
 def main():
     string_input=input("Enter a string: ")
